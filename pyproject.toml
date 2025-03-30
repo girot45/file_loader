@@ -1,0 +1,21 @@
+[project]
+name = "file-loader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aioredis>=2.0.1",
+    "alembic>=1.15.2",
+    "asyncpg>=0.30.0",
+    "bcrypt>=4.3.0",
+    "fastapi>=0.115.12",
+    "fastapi-limiter>=0.1.6",
+    "httpx>=0.28.1",
+    "passlib>=1.7.4",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.1.0",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.40",
+    "uvicorn>=0.34.0",
+]
