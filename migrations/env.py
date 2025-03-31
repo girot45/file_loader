@@ -9,6 +9,7 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 from file_loader.src.config import config as service_config
 from file_loader.src.models.base_model import Base
 from file_loader.src.models.service_model import *  # noqa: F403
+from file_loader.src.models.user_model import *  # noqa: F403
 
 config = context.config
 config.set_main_option("sqlalchemy.url", service_config.db_config.get_migrations_url())

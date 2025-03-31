@@ -19,4 +19,5 @@ class Config(BaseModel):
     SECRET_KEY: str
     ALGORITHM: str
     KEY: str
+    REDIS_URL: str
     db_config: DbConfig
